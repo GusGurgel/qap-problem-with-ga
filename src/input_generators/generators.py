@@ -1,4 +1,4 @@
-from random import randint, sample
+from random import randint, sample, shuffle
 from config import GRID_SIZE, FLUX_RANGE
 from utils import euclidian_distance
 from math import floor
@@ -76,7 +76,7 @@ def gen_flux_matrix(n: int):
 
     return matrix
 
-def gen_distance_matrix(n):
+def gen_local_matrix(n):
     """
     Gera uma matriz quadrada de fulxo n x n on o índice i,j
     representa a distância de i até j.
@@ -109,3 +109,14 @@ def gen_distance_matrix(n):
                 matrix[i][j] = 0
     
     return matrix
+
+def gen_objects_allocation(n):
+    """
+    Gera uma alocação randômica de n objetos
+    """
+
+    arr = [i for i in range(n)]
+
+    shuffle(arr)
+
+    return arr
