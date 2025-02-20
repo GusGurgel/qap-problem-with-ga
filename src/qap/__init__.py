@@ -1,1 +1,1 @@
-from qap.qap import *
+from .qap import *
