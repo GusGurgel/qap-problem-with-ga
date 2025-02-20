@@ -76,9 +76,9 @@ def gen_flux_matrix(n: int):
 
     return matrix
 
-def gen_local_matrix(n):
+def gen_distance_matrix(n):
     """
-    Gera uma matriz quadrada de fulxo n x n on o índice i,j
+    Gera uma matriz quadrada de disâncias n x n on o índice i,j
     representa a distância de i até j.
 
     - A parte triangular superior e inferior são iguais
