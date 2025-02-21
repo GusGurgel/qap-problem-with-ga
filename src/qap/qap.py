@@ -31,3 +31,45 @@ def get_qap_total_flux(distance_matrix, flux_matrix, objects_allocation):
     return total_flux
 
     
+def resolve_qap_array_dups(arr):
+    """
+    Resolve duplicatas em um array de resolução de uma qap
+    """
+
+    l = len(arr)
+    filler = [x for x in range(l)]
+    j = 0     
+
+    aux = []
+    for i in range(l):
+        if arr[i] not in aux:
+            aux.push(arr[i])
+        else:
+            while j < len(filler):
+                if filler[j] not in arr:
+                    arr[i] = filler[j]
+                    j += 1
+                    break
+                j += 1
+
+def distinct_fill_qap_array_with_array(to_fill_arr, fill_arr):
+    """
+    vai preencher to_fill_arr com os valores d fill_arr
+
+    Exemplo
+    to_fill_arr = [1, None, None, 4, 3]
+    fill_arr = [3, 2, 1, 4, 5]
+    return = [1, 2, 5, 4, 3] 
+    """
+
+    l = len(to_fill_arr)
+    j = 0
+    for i in range(l):
+        if to_fill_arr[i] != None:
+            continue
+        while j < l:
+            if fill_arr[j] not in to_fill_arr:
+                to_fill_arr[i] = fill_arr[j]
+                j += 1
+                break
+            j += 1
