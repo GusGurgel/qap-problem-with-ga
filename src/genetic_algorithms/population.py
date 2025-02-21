@@ -56,7 +56,7 @@ class Population:
     # Funções de seleção
     #---------------------
 
-    def select_with_addicted_roulette(self, g: int):
+    def select_with_addicted_roulette(self, g: int = 0):
         """
         Seleciona utilizando a metodologia de roleta viciada um indivíduo da
         geração g
@@ -74,7 +74,7 @@ class Population:
         # Selecionar um elemento da população utilzando os peso
         return choices(self.generations[g], weights)[0]
 
-    def select_with_tournament(self, n: int, g: int,):
+    def select_with_tournament(self, n: int, g: int = 0):
         """
         Seleciona utilizando a metodologia de torneio um indivíduo da
         geração g com um torneio de tamanho n

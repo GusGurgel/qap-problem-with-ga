@@ -3,7 +3,7 @@ from math import floor
 
 from qap import get_qap_total_flux, distinct_fill_qap_array_with_array
 
-from random import choices
+from random import choices, choice, sample, uniform
 
 
 class Chromosome:
@@ -15,10 +15,10 @@ class Chromosome:
         
         self.fitness = get_qap_total_flux(self.distance_matrix, self.flux_matrix, self._genes)
 
-    def set_genes(self, genes):
+    def set_genes(self, genes : list):
         self._genes = genes
         self.fitness = get_qap_total_flux(
-            self._genes, self.distance_matrix, self.flux_matrix
+            self.distance_matrix, self.flux_matrix, self._genes
         )
 
     def to_dict_with_fitness(self):
@@ -94,6 +94,7 @@ class Chromosome:
             child2, p1.distance_matrix, p1.flux_matrix
         )
     
+    @staticmethod
     def crossover_with_majority(*p):
         """
         Gera um choromosomo filho baseado nos p's cromossomos pais. 
@@ -120,7 +121,70 @@ class Chromosome:
             genes = []
             for j in range(len(p)):
                 genes.append(p[j]._genes[i])
-            print(genes)
             child.append(choices(genes, weights, k=1)[0])
         
         return Chromosome(child, p[0].distance_matrix, p[0].flux_matrix)
+    
+    # --------------------
+    # Funções de mutação
+    # --------------------
+
+    def mutation_swap_two_global(self, prob : float = 0.01):
+        """
+        Efetua a mutação fazendo a inversão de dois genes
+        no chromosomo. A probabilidade do chromossomo é
+        global e só acontece uma vez.
+
+        **prob**: probabilidade da mutação acontecer em todo o
+        chromossomo. Por padrão essa probabilidade é 1%
+        """
+
+        if prob > 1:
+            raise ValueError()
+
+        # Sorteia mutação
+        if uniform(0, 1) >= prob:
+            return
+
+        new_c = self._genes
+
+        # Sortear dois índices
+        i1, i2 = sample(new_c, 2)
+
+        # Fazer o swap
+        aux = new_c[i1]
+        new_c[i1] = new_c[i2]
+        new_c[i2] = aux
+
+        self.set_genes(new_c)
+    
+    def mutation_swap_two_local(self, prob : float = 0.001):
+        """
+        Efetua a mutação fazendo a inversão de dois genes
+        no chromosomo. A probabilidade é local para cada gene,
+        ou seja, cada gene tem prob de ser trocado com outro
+
+        **prob**: probabilidade da mutação acontecer em todo o
+        chromossomo. Por padrão essa probabilidade é 0.1%
+        """
+
+        if prob > 1:
+            raise ValueError()
+
+        new_c = self._genes
+
+        for i1 in range(len(self._genes)):
+            # Sorteia mutação local
+            if uniform(0, 1) >= prob:
+                continue
+
+
+            # Sortear dois índices
+            i2 = choice(list(filter(lambda x : x != i1, new_c)))
+
+            # Fazer o swap
+            aux = new_c[i1]
+            new_c[i1] = new_c[i2]
+            new_c[i2] = aux
+
+        self.set_genes(new_c)
