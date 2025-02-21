@@ -1,0 +1,20 @@
+class GASolverQAP:
+    # Constants
+    SELECTION_WITH_ADDICTED_ROULETTE = 0
+    SELECTION_WITH_TOURNAMENT = 1
+
+    CROSSOVER_WITH_TWO_POINTS = 0
+    CROSSOVER_WITH_WITH_MAJORITY = 1
+
+    MUTATION_WITH_GLOBAL_SWAP = 0
+    MUTATION_WITH_LOCAL_SWAP = 1
+
+    ELITISM_WITH_ONLY_BEST = 0
+    ELITISM_WITH_ADDICTED_ROULETTE = 1
+
+
+    def __init__(self):
+        """
+        """
+        self.n = 15
+        pass

@@ -43,6 +43,9 @@ class Chromosome:
 
     def __str__(self):
         return self.str_with_fitness()
+    
+    def copy(self):
+        return Chromosome(self._genes.copy(), self.distance_matrix, self.flux_matrix)
 
     # -----------------------
     # Funções de crossover
@@ -128,7 +131,6 @@ class Chromosome:
     # --------------------
     # Funções de mutação
     # --------------------
-
     def mutation_swap_two_global(self, prob : float = 0.01):
         """
         Efetua a mutação fazendo a inversão de dois genes

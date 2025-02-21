@@ -10,10 +10,30 @@ class Population:
         #
         # O índice 0 representa a população inicial, o 1
         # a segunda geração e assim por diante
-        self.generations: list[list[Chromosome]] = []
+        self.chromosomes: list[Chromosome] = []
 
         self.distance_matrix = distance_matrix
         self.flux_matrix = flux_matrix
+
+    def to_dict(self):
+        """
+        Retonar a população em formato de dicionário.
+
+        {
+            "chromosomes": [
+                { genes: [gene1, gene2...], fitness: x},
+                { genes: [gene1, gene2...], fitness: y},
+                ...
+            ]
+        }
+        """
+
+        population_dict = {"chromosomes": list(map(lambda x : str(x), self.chromosomes))}
+
+        return population_dict
+
+    def __str__(self):
+        return pformat(self.to_dict())
 
     #---------------------
     # Funções de geração
@@ -32,96 +52,100 @@ class Population:
         - n > 1
         """
 
+        values = range(n)
+
         # Testar valores
         if p < 1 or n < 2:
             raise ValueError()
 
         population = Population(distance_matrix, flux_matrix)
-        generation = []
 
         # Gerar chromososmos da geração inical
         for _ in range(p):
-            chromosome = Chromosome(sample(range(n), n), distance_matrix, flux_matrix)
-            generation.append(chromosome)
+            chromosome = Chromosome(sample(values, n), distance_matrix, flux_matrix)
+            population.chromosomes.append(chromosome)
 
-        # Ordernar geração do menor para o maior fitness
-        generation = sorted(generation, key=lambda x : x.fitness)
-
-        # Adicionar geração a população
-        population.generations.append(generation)
+        # Ordernar do menor para o maior fitness
+        population.chromosomes = sorted(population.chromosomes, key=lambda x : x.fitness)
 
         return population
     
     #---------------------
     # Funções de seleção
     #---------------------
-
-    def select_with_addicted_roulette(self, g: int = 0):
+    def select_with_addicted_roulette(self) -> Chromosome:
         """
         Seleciona utilizando a metodologia de roleta viciada um indivíduo da
         geração g
         """
 
-        if g < 0 or g >= len(self.generations):
-            raise ValueError()
-
         # Inverter pesos, quanto menor o fitness maior o peso
-        fitness_arr = list(map(lambda x : x.fitness,self.generations[g]))
+        fitness_arr = list(map(lambda x : x.fitness,self.chromosomes))
         weights = [1.0 / w for w in fitness_arr]
         sum_weights = sum(weights)
         weights = [w/sum_weights for w in weights]
 
         # Selecionar um elemento da população utilzando os peso
-        return choices(self.generations[g], weights)[0]
+        return choices(self.chromosomes, weights)[0]
 
-    def select_with_tournament(self, n: int, g: int = 0):
+    def select_with_tournament(self, n: int) -> Chromosome:
         """
         Seleciona utilizando a metodologia de torneio um indivíduo da
         geração g com um torneio de tamanho n
         """
 
-        if n < 0 or g < 0 or g >= len(self.generations):
+        if n < 0:
             raise ValueError()
         
         # Selecionar torneio
-        tournament = choices(self.generations[g], k=n)
+        tournament = choices(self.chromosomes, k=n)
 
         # Retornar o com menor fitness
         return min(tournament, key=lambda x : x.fitness)
 
+    #---------------------
+    # Funções de elitismo
+    #---------------------
 
-    def to_dict(self):
+    @staticmethod
+    def elitism_only_best(n, *p):
         """
-        Retonar a população em formato de dicionário.
-
-        {
-            "generation_0": [
-                { genes: [gene1, gene2...]},
-                { genes: [gene1, gene2...]},
-                ...
-            ]
-            "generation_1": [
-                { genes: [gene1, gene2...]},
-                { genes: [gene1, gene2...]},
-                ...
-            ]
-            ...
-        }
+        Seleciona só os n melhores elementos das populações *p e retorna
+        uma nova população com esse melhores
         """
 
-        population_dict = {}
+        population = Population(p[0].distance_matrix, p[0].flux_matrix)
+        for aux_population in p:
+            for aux_chromosome in aux_population.chromosomes:
+                population.chromosomes.append(aux_chromosome.copy())
 
-        for i, generation in enumerate(self.generations):
-            population_dict[f"generation_{i}"] = list(
-                map(
-                    lambda x: x.to_dict_with_fitness(
-                        self.distance_matrix, self.flux_matrix
-                    ),
-                    generation,
-                )
-            )
+        population.chromosomes = list(sorted(population.chromosomes, key=lambda x: x.fitness))[0:n]
 
-        return population_dict
+        return population
+    
+    @staticmethod
+    def elitism_addicted_roulette(n, *p):
+        """
+        Seleciona só os n melhores elementos das populações *p e retorna
+        uma nova população com esse melhores
+        """
 
-    def __str__(self):
-        return pformat(self.to_dict())
+        population = Population(p[0].distance_matrix, p[0].flux_matrix)
+        for aux_population in p:
+            for aux_chromosome in aux_population.chromosomes:
+                population.chromosomes.append(aux_chromosome.copy())
+
+        population.chromosomes = list(sorted(population.chromosomes, key=lambda x: x.fitness))
+        
+        # Inverter pesos, quanto menor o fitness maior o peso
+        fitness_arr = list(map(lambda x : x.fitness,population.chromosomes))
+        weights = [1.0 / w for w in fitness_arr]
+        sum_weights = sum(weights)
+        weights = [w/sum_weights for w in weights]
+
+        population.chromosomes = choices(population.chromosomes, weights=weights, k=n)
+        
+        population.chromosomes = list(sorted(population.chromosomes, key=lambda x: x.fitness))
+
+
+        return population
