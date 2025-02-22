@@ -13,7 +13,7 @@ class GASolverQAP:
     SELECTION_WITH_TOURNAMENT = 1
 
     CROSSOVER_WITH_TWO_POINTS = 0
-    CROSSOVER_WITH_WITH_MAJORITY = 1
+    CROSSOVER_WITH_MAJORITY = 1
 
     MUTATION_WITH_GLOBAL_SWAP = 0
     MUTATION_WITH_LOCAL_SWAP = 1
@@ -54,8 +54,8 @@ class GASolverQAP:
         crossoveer
         """
 
-        if n > GRID_SIZE:
-            raise ValueError()
+        # if n > GRID_SIZE:
+        #     raise ValueError()
 
         self.n = n
         self.selection_function = selection_function
@@ -278,7 +278,7 @@ str_flux_matrix =
         crossover_function = (
             GASolverQAP.CROSSOVER_WITH_TWO_POINTS
             if data["crossover_function"] in [0, "CROSSOVER_WITH_TWO_POINTS"]
-            else GASolverQAP.CROSSOVER_WITH_WITH_MAJORITY
+            else GASolverQAP.CROSSOVER_WITH_MAJORITY
         )
         mutation_function = (
             GASolverQAP.MUTATION_WITH_GLOBAL_SWAP

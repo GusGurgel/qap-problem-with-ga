@@ -91,8 +91,8 @@ def gen_distance_matrix(n):
     if n < 0:
         raise ValueError("'n' need to be positive")
 
-    if n > GRID_SIZE:
-        raise ValueError("'n' need to be lass than GRID_SIZE")
+    # if n > GRID_SIZE:
+    #     raise ValueError("'n' need to be lass than GRID_SIZE")
 
     points = gen_random_points(n)
     matrix = gen_zero_matrix(n)

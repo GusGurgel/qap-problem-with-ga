@@ -10,6 +10,7 @@ from os.path import join, splitext
 from config import MAIN_PATH
 from utils import print_line, make_line
 from datetime import datetime
+import time
 
 def main():
     parser = argparse.ArgumentParser(
@@ -43,7 +44,12 @@ def main():
 
     print(f"Running:  {args.input_json}")
     output_txt += f"Running:  {args.input_json}" + "\n"
+    # Iniciar contador de tempo 
+    start_time = time.time()
     res = solver.run(verbose=args.verbose)
+    # Terminar contador
+    end_time = time.time()
+    elapsed_time = end_time - start_time
 
     solver.print_generations_report(step=args.step)
     output_txt += solver.get_generations_report() + "\n"
@@ -54,6 +60,8 @@ def main():
     print(f"genes: {res._genes}")
     output_txt += f"fitness: {res.fitness}" + "\n"
     print(f"fitness: {res.fitness}")
+    output_txt += f"Execution Time: {elapsed_time:.2f} seconds\n"
+    print(f"Execution Time: {elapsed_time:.2f} seconds")
     output_txt += make_line() + "\n"
     print_line()
 
