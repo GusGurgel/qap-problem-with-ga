@@ -5,6 +5,6 @@
     "mutation_function": "MUTATION_WITH_GLOBAL_SWAP",
     "elitism_function": "ELITISM_WITH_ONLY_BEST",
     "mutation_prob": 0.01,
-    "generation_limit": 40,
-    "generation_size": 40
+    "generation_limit": 5,
+    "generation_size": 20
 }
