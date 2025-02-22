@@ -1,7 +1,7 @@
 from pprint import pformat, pprint
 import json
 
-from utils import makeline
+from utils import print_line,  make_line
 from config import GRID_SIZE
 from genetic_algorithms import Population, Chromosome
 from input_generators import gen_distance_matrix, gen_flux_matrix
@@ -95,6 +95,10 @@ class GASolverQAP:
         como indivíduo com mais/menos fitness e fitness médio da geração
         """
 
+        # Variáveis para os 3 potinhos usado no verbose
+        i_spinner = 0
+        spinner = ['🕐', '🕑', '🕒', '🕓', '🕔', '🕕', '🕖', '🕗', '🕘', '🕙', '🕚', '🕛']
+
         # Reseta o solver
         self._reset()
 
@@ -103,8 +107,12 @@ class GASolverQAP:
         )
 
         self.generations.append(inital_population)
+        if verbose:
+            print(f"Generation [{len(self.generations)}] (created) {spinner[i_spinner%len(spinner)]}")
+            i_spinner += 1
 
         old_generation: Population = self.generations[0]
+
 
         # Gerar as gerações até bater o limite (critério de parada)
         while len(self.generations) < self.generation_limit:
@@ -171,11 +179,31 @@ class GASolverQAP:
 
             # Adicionar nova geração
             self.generations.append(new_generation)
+            if verbose:
+                print(f"Generation [{len(self.generations)}] (created) {spinner[i_spinner%len(spinner)]}")
+                i_spinner += 1
             # A geração nova vira a antiga
             old_generation = new_generation
 
         # Retonar melhor indivíduo da populacão
         return self.generations[-1].chromosomes[0]
+
+    def get_generations_report(self):
+        """
+        Pegar string de todas as gerações junto com os seus reports
+        """
+
+        out = ""
+
+        for i, generation in enumerate(self.generations):
+            out += make_line() + "\n"
+            out += f"Generation [{i+1}]" + '\n'
+            report = generation.report()
+            for key in report.keys():
+                out += f"- {key}: {report[key]}"  + '\n'
+        out += make_line() + "\n"
+
+        return out
 
     def print_generations_report(self, step=False):
         """
@@ -183,14 +211,14 @@ class GASolverQAP:
         """
 
         for i, generation in enumerate(self.generations):
-            makeline()
+            print_line()
             print(f"Generation [{i+1}]")
             report = generation.report()
             for key in report.keys():
                 print(f"- {key}: {report[key]}")
             if step:
                 input()
-        makeline()
+        print_line()
 
     def __str__(self):
         str_selection_function = (

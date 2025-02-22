@@ -10,5 +10,8 @@ def euclidian_distance(p1, p2):
     d_y = pow(abs(p1[1] - p2[1]), 2)
     return sqrt(d_x + d_y)
 
-def makeline(len = LINE_SIZE):
-    print(LINE_CHAR*LINE_SIZE)
+def make_line(len = LINE_SIZE):
+    return LINE_CHAR*LINE_SIZE
+
+def print_line(len = LINE_SIZE):
+    print(make_line(len))

@@ -1,0 +1,48 @@
+------------------------------------------------------------
+Running:  input1.json
+------------------------------------------------------------
+Generation [1]
+- best_fitness: 12936
+- worst_fitness: 14077
+- mean_fitness: 13519.75
+- mode_fitness: 12936
+- greedy_solution_distance (12715): -221
+- greedy_solution_distance_percent (12715): -1.74%
+------------------------------------------------------------
+Generation [2]
+- best_fitness: 12936
+- worst_fitness: 13521
+- mean_fitness: 13327.05
+- mode_fitness: 13002
+- greedy_solution_distance (12715): -221
+- greedy_solution_distance_percent (12715): -1.74%
+------------------------------------------------------------
+Generation [3]
+- best_fitness: 12936
+- worst_fitness: 13394
+- mean_fitness: 13185.05
+- mode_fitness: 13002
+- greedy_solution_distance (12715): -221
+- greedy_solution_distance_percent (12715): -1.74%
+------------------------------------------------------------
+Generation [4]
+- best_fitness: 12840
+- worst_fitness: 13214
+- mean_fitness: 13071.7
+- mode_fitness: 13002
+- greedy_solution_distance (12715): -125
+- greedy_solution_distance_percent (12715): -0.98%
+------------------------------------------------------------
+Generation [5]
+- best_fitness: 12671
+- worst_fitness: 13142
+- mean_fitness: 12999.825
+- mode_fitness: 13002
+- greedy_solution_distance (12715): 44
+- greedy_solution_distance_percent (12715): 0.35%
+------------------------------------------------------------
+
+[Final Result]
+genes: [8, 16, 18, 3, 14, 1, 7, 11, 15, 4, 12, 19, 5, 13, 2, 9, 10, 0, 17, 6]
+fitness: 12671
+------------------------------------------------------------

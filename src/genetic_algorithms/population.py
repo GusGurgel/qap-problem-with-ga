@@ -27,6 +27,7 @@ class Population:
             "mean_fitness": z,
             "mode_fitness": w
             "better_than_greedy (greedy_solution_fitness)": m
+            "greedy_solution_distance_percent (greedy_solution_fitness)": n
         }
         """
 
@@ -45,7 +46,7 @@ class Population:
             f"greedy_solution_distance ({greedy_solution_fitness})": greedy_solution_fitness - self.chromosomes[
                 0
             ].fitness,
-            f"greedy_solution_distance_percent ({greedy_solution_fitness})": f"{(((greedy_solution_fitness - self.chromosomes[
+            f"greedy_solution_distance_percent": f"{(((greedy_solution_fitness - self.chromosomes[
                 0
             ].fitness)/greedy_solution_fitness)*100):.2f}%",
         }
