@@ -1,5 +1,5 @@
 {
-    "n": 10,
+    "n": 5,
     "selection_function": "SELECTION_WITH_ADDICTED_ROULETTE",
     "crossover_function": "CROSSOVER_WITH_TWO_POINTS",
     "mutation_function": "MUTATION_WITH_GLOBAL_SWAP",

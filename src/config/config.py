@@ -14,3 +14,13 @@ GRID_SIZE = 30
 """
 Representa o **tamanho do grid** utilizado para gerar os **pontos/locais** aleatórios
 """
+
+LINE_SIZE = 60
+"""
+Tamanho da linha padrão utiliza para divisão no CLI
+"""
+
+LINE_CHAR = "-"
+"""
+Caractere utilizado para fazer as linhas de divisória do terminal
+"""

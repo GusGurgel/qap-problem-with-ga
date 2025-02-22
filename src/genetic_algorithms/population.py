@@ -1,5 +1,6 @@
 from pprint import pformat
 from random import sample, choices
+from statistics import mean, mode
 
 from .chromosome import Chromosome
 
@@ -14,6 +15,26 @@ class Population:
 
         self.distance_matrix = distance_matrix
         self.flux_matrix = flux_matrix
+    
+    def report(self) -> dict:
+        """
+        Retonar um relatório da população mostrando os dados:
+
+        {
+            "best_fitness": x,
+            "worst_fitness": y,
+            "mean_fitness": z,
+            "mode_fitness": w
+        }
+        """
+
+        fitness_arr = list(map(lambda x : x.fitness,self.chromosomes))
+        return {
+            "best_fitness": self.chromosomes[0].fitness,
+            "worst_fitness": self.chromosomes[-1].fitness,
+            "mean_fitness": mean(fitness_arr),
+            "mode_fitness": mode(fitness_arr)
+        }
 
     def to_dict(self):
         """

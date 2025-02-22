@@ -1,3 +1,4 @@
+from config import LINE_SIZE, LINE_CHAR
 from math import sqrt
 
 def euclidian_distance(p1, p2):
@@ -8,3 +9,6 @@ def euclidian_distance(p1, p2):
     d_x = pow(abs(p1[0] - p2[0]), 2)
     d_y = pow(abs(p1[1] - p2[1]), 2)
     return sqrt(d_x + d_y)
+
+def makeline(len = LINE_SIZE):
+    print(LINE_CHAR*LINE_SIZE)
