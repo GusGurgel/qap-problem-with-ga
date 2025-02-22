@@ -73,3 +73,35 @@ def distinct_fill_qap_array_with_array(to_fill_arr, fill_arr):
                 j += 1
                 break
             j += 1
+
+def resolve_qap_with_greedy(distance_matrix, flux_matrix):
+    """
+    Retona uma solução do problema do QAP utilizando o
+    algoritmo guloso com heurística **menor fluxo para maior
+    distância como heurística**
+    """
+
+    total_distance_array = []
+    total_flux_array = []
+
+    for i, row in enumerate(distance_matrix):
+        total_distance_array.append((i, sum(row)))
+    
+    for i, row in enumerate(flux_matrix):
+        total_flux_array.append((i, sum(row)))
+    
+    # Ordenar os arrays
+    total_distance_array = sorted(total_distance_array, key=lambda x : x[1], reverse=True)
+    total_flux_array = sorted(total_flux_array, key=lambda x : x[1])
+
+    # Construir array de resultado
+    result_array = [None]*len(total_distance_array)
+
+    for i in range(len(total_distance_array)):
+        # índice da i-ésima maior distância
+        index = total_distance_array[i][0]
+        # o objeto de í-ésimo menor fluxo fica alocado no índice da í-esima
+        # maior distância
+        result_array[index] = total_flux_array[i][0]
+    
+    return result_array

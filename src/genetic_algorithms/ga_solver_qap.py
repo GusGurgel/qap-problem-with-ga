@@ -177,17 +177,19 @@ class GASolverQAP:
         # Retonar melhor indivíduo da populacão
         return self.generations[-1].chromosomes[0]
 
-    def print_generations_report(self):
+    def print_generations_report(self, step=False):
         """
         Printar todas as gerações junto com os seus reports
         """
 
         for i, generation in enumerate(self.generations):
             makeline()
-            print(f"Generation [{i}]")
+            print(f"Generation [{i+1}]")
             report = generation.report()
             for key in report.keys():
                 print(f"- {key}: {report[key]}")
+            if step:
+                input()
         makeline()
 
     def __str__(self):
@@ -214,8 +216,7 @@ class GASolverQAP:
         str_distance_matrix = pformat(self.distance_matrix)
         str_flux_matrix = pformat(self.flux_matrix)
 
-        return f"""GASolverQAP Configuration:
-n = {self.n}
+        return f"""n = {self.n}
 selection_function = {str_selection_function}
 crossover_function = {str_crossover_function}
 mutation_function = {str_mutation_function}
@@ -234,6 +235,11 @@ str_flux_matrix =
     def from_json_file(path):
         with open(path, "r") as file:
             data = json.load(file)
+        
+        return GASolverQAP.from_json(data)
+
+    @staticmethod
+    def from_json(data : dict):
 
         # Mapeando os valores do JSON para os atributos da classe
         selection_function = (
