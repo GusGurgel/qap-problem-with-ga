@@ -9,7 +9,7 @@ from genetic_algorithms import GASolverQAP
 from os.path import join, splitext
 from config import MAIN_PATH
 from utils import print_line, make_line
-
+from datetime import datetime
 
 def main():
     parser = argparse.ArgumentParser(
@@ -58,7 +58,7 @@ def main():
     print_line()
 
     if args.save:
-        filename = splitext(args.input_json)[0] + ".txt"
+        filename = splitext(args.input_json)[0] + datetime.now().strftime("%y%m%d%H%M") + "_out.txt"
         save_path = join(MAIN_PATH, "ga_outputs", filename)
         with open(save_path, "w") as file:
             file.write(output_txt)
