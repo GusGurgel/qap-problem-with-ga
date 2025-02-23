@@ -1,0 +1,5 @@
+input_global.json teve uma média de melhora do algoritmo guloso em 8.61%
+Tempo médio de execução: 1.9763 segundos
+
+input_local.json teve uma média de melhora do algoritmo guloso em 8.83%
+Tempo médio de execução: 2.4709 segundos

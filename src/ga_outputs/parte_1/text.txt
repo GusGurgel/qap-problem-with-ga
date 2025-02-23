@@ -1,0 +1,5 @@
+input_roulette.json teve uma média de melhora do algoritmo guloso em 3.23%
+Tempo médio de execução: 2.2560 segundos
+
+input_tournament.json teve uma média de melhora do algoritmo guloso em 6.61%
+Tempo médio de execução: 1.4299 segundos
