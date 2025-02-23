@@ -1,7 +1,7 @@
-# Este script executa o GASolverQAP várias vezes com um arquivo JSON de entrada.
-# O usuário deve fornecer o nome do arquivo JSON localizado na pasta 'ga_inputs' e o número de execuções (maior que 1).
-# Opções adicionais incluem:
-#   --verbose : Exibe detalhes da execução.
+# Este script executa e compara dois arquivos JSON de entrada utilizando o GASolverQAP.
+# O usuário deve fornecer os nomes de dois arquivos JSON localizados na pasta 'ga_inputs' e o número de execuções (maior que 1).
+# O script gera as mesmas matrizes de distância e fluxo para ambos os arquivos, garantindo comparabilidade.
+# No final, exibe a média de melhora do algoritmo guloso e o tempo médio de execução para cada arquivo.
 
 import time
 import argparse
@@ -9,10 +9,12 @@ from genetic_algorithms import GASolverQAP
 from os.path import join
 from config import MAIN_PATH
 from statistics import mean
+from input_generators import gen_distance_matrix, gen_flux_matrix
 
 def main():
-    parser = argparse.ArgumentParser(description="Executa o GASolverQAP com um arquivo de entrada JSON várias vezes.")
-    parser.add_argument("input_json", type=str, help="Nome do arquivo JSON dentro da pasta ga_inputs")
+    parser = argparse.ArgumentParser(description="Executa e compara dois arquivos de entrada JSON usando GASolverQAP.")
+    parser.add_argument("input_json1", type=str, help="Nome do primeiro arquivo JSON dentro da pasta ga_inputs")
+    parser.add_argument("input_json2", type=str, help="Nome do segundo arquivo JSON dentro da pasta ga_inputs")
     parser.add_argument("times", type=int, help="Quantidade de vezes que a entrada será testada (deve ser maior que 1)")
     parser.add_argument("--verbose", action="store_true", help="Exibe detalhes da execução")
     
@@ -22,27 +24,38 @@ def main():
         print("Erro: O número de execuções deve ser maior que 1.")
         return
     
-    input_path = join(MAIN_PATH, "ga_inputs", args.input_json)
+    input_path1 = join(MAIN_PATH, "ga_inputs", args.input_json1)
+    input_path2 = join(MAIN_PATH, "ga_inputs", args.input_json2)
     
-    greedy_increase_arr = []
-    time_arr = []
+    solver1 = GASolverQAP.from_json_file(input_path1)
+    solver2 = GASolverQAP.from_json_file(input_path2)
+    
+    input_distance_matrix = [gen_distance_matrix(solver1.n) for _ in range(args.times)]
+    input_flux_matrix = [gen_flux_matrix(solver1.n) for _ in range(args.times)]
+    
+    results = {args.input_json1: {'greedy_increase': [], 'time': []},
+               args.input_json2: {'greedy_increase': [], 'time': []}}
     
     for i in range(args.times):
-        print(f"running {i+1}/{args.times}")
-        solver = GASolverQAP.from_json_file(input_path)
+        print(f"Executando teste {i+1}/{args.times}")
         
-        start_time = time.time()  # Começar a contar aqui
-        solver.run(verbose=args.verbose)
-        end_time = time.time()  # Terminar a contagem aqui
-        
-        elapsed_time = end_time - start_time
-        time_arr.append(elapsed_time)
-        
-        greedy_res = solver.generations[-1].report()["greedy_solution_distance_percent"]
-        greedy_increase_arr.append(float(greedy_res.replace("%", "")))
+        for solver, input_path, key in [(solver1, input_path1, args.input_json1), (solver2, input_path2, args.input_json2)]:
+            solver = GASolverQAP.from_json_file(input_path)
+            solver.distance_matrix = input_distance_matrix[i]
+            solver.flux_matrix = input_flux_matrix[i]
+            
+            start_time = time.time()
+            solver.run(verbose=args.verbose)
+            elapsed_time = time.time() - start_time
+            
+            greedy_res = solver.generations[-1].report()["greedy_solution_distance_percent"]
+            
+            results[key]['time'].append(elapsed_time)
+            results[key]['greedy_increase'].append(float(greedy_res.replace("%", "")))
     
-    print(f"{args.input_json} teve uma média de melhora do algoritmo guloso em {mean(greedy_increase_arr):.2f}%")
-    print(f"Tempo médio de execução: {mean(time_arr):.4f} segundos")
+    for key in results:
+        print(f"\n{key} teve uma média de melhora do algoritmo guloso em {mean(results[key]['greedy_increase']):.2f}%")
+        print(f"Tempo médio de execução: {mean(results[key]['time']):.4f} segundos")
 
 if __name__ == "__main__":
     main()
