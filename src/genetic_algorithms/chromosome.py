@@ -1,7 +1,7 @@
 from pprint import pformat
 from math import floor
 
-from qap import get_qap_total_flux, distinct_fill_qap_array_with_array
+from qap import get_qap_total_flux, distinct_fill_qap_array_with_array, resolve_qap_array_dups
 
 from random import choices, choice, sample, uniform
 
@@ -114,6 +114,10 @@ class Chromosome:
 
         # Inverter pesos, quanto menor o fitness maior o peso
         fitness_arr = list(map(lambda x : x.fitness,p))
+        # print(fitness_arr)
+        # for i,fitness in enumerate(fitness_arr):
+        #     print(fitness)
+        #     print(p[i])
         weights = [1.0 / w for w in fitness_arr]
         sum_weights = sum(weights)
         weights = [w/sum_weights for w in weights]
@@ -125,6 +129,8 @@ class Chromosome:
             for j in range(len(p)):
                 genes.append(p[j]._genes[i])
             child.append(choices(genes, weights, k=1)[0])
+        
+        resolve_qap_array_dups(child)
         
         return Chromosome(child, p[0].distance_matrix, p[0].flux_matrix)
     

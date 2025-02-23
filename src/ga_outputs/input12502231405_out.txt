@@ -1,0 +1,2409 @@
+------------------------------------------------------------
+Running:  input1.json
+------------------------------------------------------------
+Generation [1]
+- best_fitness: 3003
+- worst_fitness: 3735
+- mean_fitness: 3402.2833333333333
+- mode_fitness: 3376
+- greedy_solution_distance (3035): 32
+- greedy_solution_distance_percent: 1.05%
+------------------------------------------------------------
+Generation [2]
+- best_fitness: 2963
+- worst_fitness: 3400
+- mean_fitness: 3276.596666666667
+- mode_fitness: 3279
+- greedy_solution_distance (3035): 72
+- greedy_solution_distance_percent: 2.37%
+------------------------------------------------------------
+Generation [3]
+- best_fitness: 2963
+- worst_fitness: 3326
+- mean_fitness: 3226.45
+- mode_fitness: 3279
+- greedy_solution_distance (3035): 72
+- greedy_solution_distance_percent: 2.37%
+------------------------------------------------------------
+Generation [4]
+- best_fitness: 2959
+- worst_fitness: 3276
+- mean_fitness: 3193.076666666667
+- mode_fitness: 3178
+- greedy_solution_distance (3035): 76
+- greedy_solution_distance_percent: 2.50%
+------------------------------------------------------------
+Generation [5]
+- best_fitness: 2959
+- worst_fitness: 3244
+- mean_fitness: 3171.4666666666667
+- mode_fitness: 3178
+- greedy_solution_distance (3035): 76
+- greedy_solution_distance_percent: 2.50%
+------------------------------------------------------------
+Generation [6]
+- best_fitness: 2959
+- worst_fitness: 3217
+- mean_fitness: 3150.57
+- mode_fitness: 3178
+- greedy_solution_distance (3035): 76
+- greedy_solution_distance_percent: 2.50%
+------------------------------------------------------------
+Generation [7]
+- best_fitness: 2921
+- worst_fitness: 3197
+- mean_fitness: 3131.15
+- mode_fitness: 3174
+- greedy_solution_distance (3035): 114
+- greedy_solution_distance_percent: 3.76%
+------------------------------------------------------------
+Generation [8]
+- best_fitness: 2921
+- worst_fitness: 3170
+- mean_fitness: 3113.95
+- mode_fitness: 3143
+- greedy_solution_distance (3035): 114
+- greedy_solution_distance_percent: 3.76%
+------------------------------------------------------------
+Generation [9]
+- best_fitness: 2921
+- worst_fitness: 3152
+- mean_fitness: 3099.1
+- mode_fitness: 3143
+- greedy_solution_distance (3035): 114
+- greedy_solution_distance_percent: 3.76%
+------------------------------------------------------------
+Generation [10]
+- best_fitness: 2921
+- worst_fitness: 3140
+- mean_fitness: 3086.6066666666666
+- mode_fitness: 3134
+- greedy_solution_distance (3035): 114
+- greedy_solution_distance_percent: 3.76%
+------------------------------------------------------------
+Generation [11]
+- best_fitness: 2921
+- worst_fitness: 3128
+- mean_fitness: 3076.57
+- mode_fitness: 3126
+- greedy_solution_distance (3035): 114
+- greedy_solution_distance_percent: 3.76%
+------------------------------------------------------------
+Generation [12]
+- best_fitness: 2882
+- worst_fitness: 3120
+- mean_fitness: 3063.44
+- mode_fitness: 3119
+- greedy_solution_distance (3035): 153
+- greedy_solution_distance_percent: 5.04%
+------------------------------------------------------------
+Generation [13]
+- best_fitness: 2882
+- worst_fitness: 3103
+- mean_fitness: 3050.193333333333
+- mode_fitness: 3071
+- greedy_solution_distance (3035): 153
+- greedy_solution_distance_percent: 5.04%
+------------------------------------------------------------
+Generation [14]
+- best_fitness: 2882
+- worst_fitness: 3090
+- mean_fitness: 3036.5133333333333
+- mode_fitness: 3071
+- greedy_solution_distance (3035): 153
+- greedy_solution_distance_percent: 5.04%
+------------------------------------------------------------
+Generation [15]
+- best_fitness: 2874
+- worst_fitness: 3071
+- mean_fitness: 3023.2233333333334
+- mode_fitness: 3071
+- greedy_solution_distance (3035): 161
+- greedy_solution_distance_percent: 5.30%
+------------------------------------------------------------
+Generation [16]
+- best_fitness: 2874
+- worst_fitness: 3056
+- mean_fitness: 3010.0033333333336
+- mode_fitness: 3022
+- greedy_solution_distance (3035): 161
+- greedy_solution_distance_percent: 5.30%
+------------------------------------------------------------
+Generation [17]
+- best_fitness: 2874
+- worst_fitness: 3041
+- mean_fitness: 2998.34
+- mode_fitness: 3022
+- greedy_solution_distance (3035): 161
+- greedy_solution_distance_percent: 5.30%
+------------------------------------------------------------
+Generation [18]
+- best_fitness: 2874
+- worst_fitness: 3028
+- mean_fitness: 2982.89
+- mode_fitness: 3022
+- greedy_solution_distance (3035): 161
+- greedy_solution_distance_percent: 5.30%
+------------------------------------------------------------
+Generation [19]
+- best_fitness: 2862
+- worst_fitness: 3022
+- mean_fitness: 2970.04
+- mode_fitness: 2913
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [20]
+- best_fitness: 2862
+- worst_fitness: 3003
+- mean_fitness: 2955.3866666666668
+- mode_fitness: 2913
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [21]
+- best_fitness: 2862
+- worst_fitness: 2990
+- mean_fitness: 2943.72
+- mode_fitness: 2913
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [22]
+- best_fitness: 2862
+- worst_fitness: 2958
+- mean_fitness: 2932.266666666667
+- mode_fitness: 2913
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [23]
+- best_fitness: 2862
+- worst_fitness: 2954
+- mean_fitness: 2922.4533333333334
+- mode_fitness: 2913
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [24]
+- best_fitness: 2862
+- worst_fitness: 2931
+- mean_fitness: 2912.0466666666666
+- mode_fitness: 2913
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [25]
+- best_fitness: 2862
+- worst_fitness: 2913
+- mean_fitness: 2907.9766666666665
+- mode_fitness: 2913
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [26]
+- best_fitness: 2862
+- worst_fitness: 2913
+- mean_fitness: 2907.076666666667
+- mode_fitness: 2913
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [27]
+- best_fitness: 2862
+- worst_fitness: 2913
+- mean_fitness: 2905.25
+- mode_fitness: 2913
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [28]
+- best_fitness: 2862
+- worst_fitness: 2913
+- mean_fitness: 2903.3033333333333
+- mode_fitness: 2913
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [29]
+- best_fitness: 2862
+- worst_fitness: 2913
+- mean_fitness: 2899.7166666666667
+- mode_fitness: 2900
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [30]
+- best_fitness: 2862
+- worst_fitness: 2913
+- mean_fitness: 2895.84
+- mode_fitness: 2900
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [31]
+- best_fitness: 2862
+- worst_fitness: 2900
+- mean_fitness: 2893.18
+- mode_fitness: 2900
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [32]
+- best_fitness: 2862
+- worst_fitness: 2900
+- mean_fitness: 2891.1966666666667
+- mode_fitness: 2900
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [33]
+- best_fitness: 2862
+- worst_fitness: 2900
+- mean_fitness: 2888.7033333333334
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [34]
+- best_fitness: 2862
+- worst_fitness: 2889
+- mean_fitness: 2882.923333333333
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [35]
+- best_fitness: 2862
+- worst_fitness: 2883
+- mean_fitness: 2882.7033333333334
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [36]
+- best_fitness: 2862
+- worst_fitness: 2883
+- mean_fitness: 2882.7033333333334
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [37]
+- best_fitness: 2862
+- worst_fitness: 2883
+- mean_fitness: 2882.7033333333334
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [38]
+- best_fitness: 2862
+- worst_fitness: 2883
+- mean_fitness: 2882.7033333333334
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [39]
+- best_fitness: 2862
+- worst_fitness: 2883
+- mean_fitness: 2882.7033333333334
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [40]
+- best_fitness: 2862
+- worst_fitness: 2883
+- mean_fitness: 2882.7033333333334
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [41]
+- best_fitness: 2862
+- worst_fitness: 2883
+- mean_fitness: 2882.7033333333334
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [42]
+- best_fitness: 2862
+- worst_fitness: 2883
+- mean_fitness: 2882.7033333333334
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 173
+- greedy_solution_distance_percent: 5.70%
+------------------------------------------------------------
+Generation [43]
+- best_fitness: 2851
+- worst_fitness: 2883
+- mean_fitness: 2882.596666666667
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 184
+- greedy_solution_distance_percent: 6.06%
+------------------------------------------------------------
+Generation [44]
+- best_fitness: 2851
+- worst_fitness: 2883
+- mean_fitness: 2882.596666666667
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 184
+- greedy_solution_distance_percent: 6.06%
+------------------------------------------------------------
+Generation [45]
+- best_fitness: 2851
+- worst_fitness: 2883
+- mean_fitness: 2882.4933333333333
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 184
+- greedy_solution_distance_percent: 6.06%
+------------------------------------------------------------
+Generation [46]
+- best_fitness: 2851
+- worst_fitness: 2883
+- mean_fitness: 2882.39
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 184
+- greedy_solution_distance_percent: 6.06%
+------------------------------------------------------------
+Generation [47]
+- best_fitness: 2851
+- worst_fitness: 2883
+- mean_fitness: 2881.8733333333334
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 184
+- greedy_solution_distance_percent: 6.06%
+------------------------------------------------------------
+Generation [48]
+- best_fitness: 2851
+- worst_fitness: 2883
+- mean_fitness: 2881.2533333333336
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 184
+- greedy_solution_distance_percent: 6.06%
+------------------------------------------------------------
+Generation [49]
+- best_fitness: 2851
+- worst_fitness: 2883
+- mean_fitness: 2879.91
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 184
+- greedy_solution_distance_percent: 6.06%
+------------------------------------------------------------
+Generation [50]
+- best_fitness: 2851
+- worst_fitness: 2883
+- mean_fitness: 2877.12
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 184
+- greedy_solution_distance_percent: 6.06%
+------------------------------------------------------------
+Generation [51]
+- best_fitness: 2851
+- worst_fitness: 2883
+- mean_fitness: 2871.3333333333335
+- mode_fitness: 2883
+- greedy_solution_distance (3035): 184
+- greedy_solution_distance_percent: 6.06%
+------------------------------------------------------------
+Generation [52]
+- best_fitness: 2851
+- worst_fitness: 2883
+- mean_fitness: 2861.2066666666665
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 184
+- greedy_solution_distance_percent: 6.06%
+------------------------------------------------------------
+Generation [53]
+- best_fitness: 2851
+- worst_fitness: 2852
+- mean_fitness: 2851.9933333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 184
+- greedy_solution_distance_percent: 6.06%
+------------------------------------------------------------
+Generation [54]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.866666666667
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [55]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.866666666667
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [56]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.866666666667
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [57]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.866666666667
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [58]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.866666666667
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [59]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.866666666667
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [60]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.866666666667
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [61]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.866666666667
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [62]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.866666666667
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [63]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.866666666667
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [64]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [65]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [66]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [67]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [68]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [69]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [70]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [71]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [72]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [73]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [74]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [75]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [76]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [77]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [78]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [79]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [80]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [81]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [82]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [83]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [84]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [85]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.8033333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [86]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.74
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [87]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.74
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [88]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.74
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [89]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.74
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [90]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.74
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [91]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.74
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [92]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.74
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [93]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.74
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [94]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.74
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [95]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.74
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [96]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.74
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [97]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.74
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [98]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.74
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [99]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.6133333333332
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [100]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.6133333333332
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [101]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.6133333333332
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [102]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.6133333333332
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [103]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.55
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [104]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.55
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [105]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.3566666666666
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [106]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.2933333333335
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [107]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.1666666666665
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [108]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.1
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [109]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2851.1
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [110]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2850.9733333333334
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [111]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2850.846666666667
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [112]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2850.7833333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [113]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2850.7833333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [114]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2850.7833333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [115]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2850.7833333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [116]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2850.7833333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [117]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2850.7166666666667
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [118]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2850.33
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [119]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2850.33
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [120]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2850.13
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [121]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2849.8766666666666
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [122]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2849.4266666666667
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [123]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2849.0466666666666
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [124]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2848.4066666666668
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [125]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2847.55
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [126]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2845.8233333333333
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [127]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2844.2233333333334
+- mode_fitness: 2852
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [128]
+- best_fitness: 2833
+- worst_fitness: 2852
+- mean_fitness: 2840.32
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [129]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [130]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [131]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [132]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [133]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [134]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [135]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [136]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [137]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [138]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [139]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [140]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [141]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [142]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [143]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [144]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [145]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [146]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [147]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [148]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [149]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [150]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [151]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [152]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [153]
+- best_fitness: 2833
+- worst_fitness: 2833
+- mean_fitness: 2833
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 202
+- greedy_solution_distance_percent: 6.66%
+------------------------------------------------------------
+Generation [154]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [155]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [156]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [157]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [158]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [159]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [160]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [161]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [162]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [163]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [164]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [165]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [166]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [167]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [168]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [169]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [170]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [171]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [172]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [173]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [174]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [175]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [176]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [177]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [178]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [179]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [180]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [181]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [182]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [183]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [184]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [185]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [186]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [187]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9866666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [188]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9466666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [189]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9466666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [190]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9466666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [191]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9466666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [192]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9466666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [193]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9333333333334
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [194]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9333333333334
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [195]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9333333333334
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [196]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9333333333334
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [197]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9333333333334
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [198]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9333333333334
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [199]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9333333333334
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [200]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9333333333334
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [201]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.92
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [202]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.92
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [203]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.92
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [204]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.92
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [205]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.92
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [206]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.92
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [207]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.92
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [208]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.92
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [209]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9066666666668
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [210]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9066666666668
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [211]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9066666666668
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [212]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9066666666668
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [213]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9066666666668
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [214]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.9066666666668
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [215]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.8933333333334
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [216]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.8933333333334
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [217]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.8933333333334
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [218]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.8533333333335
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [219]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.8
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [220]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.786666666667
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [221]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.76
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [222]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.7466666666664
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [223]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.72
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [224]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.693333333333
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [225]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.693333333333
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [226]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.64
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [227]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.5866666666666
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [228]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.5333333333333
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [229]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.48
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [230]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.4
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [231]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.32
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [232]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2832.24
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [233]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2831.9733333333334
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [234]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2831.8533333333335
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [235]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2831.5866666666666
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [236]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2831.0266666666666
+- mode_fitness: 2833
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [237]
+- best_fitness: 2829
+- worst_fitness: 2833
+- mean_fitness: 2830.0666666666666
+- mode_fitness: 2829
+- greedy_solution_distance (3035): 206
+- greedy_solution_distance_percent: 6.79%
+------------------------------------------------------------
+Generation [238]
+- best_fitness: 2803
+- worst_fitness: 2829
+- mean_fitness: 2828.9133333333334
+- mode_fitness: 2829
+- greedy_solution_distance (3035): 232
+- greedy_solution_distance_percent: 7.64%
+------------------------------------------------------------
+Generation [239]
+- best_fitness: 2803
+- worst_fitness: 2829
+- mean_fitness: 2828.826666666667
+- mode_fitness: 2829
+- greedy_solution_distance (3035): 232
+- greedy_solution_distance_percent: 7.64%
+------------------------------------------------------------
+Generation [240]
+- best_fitness: 2803
+- worst_fitness: 2829
+- mean_fitness: 2828.826666666667
+- mode_fitness: 2829
+- greedy_solution_distance (3035): 232
+- greedy_solution_distance_percent: 7.64%
+------------------------------------------------------------
+Generation [241]
+- best_fitness: 2803
+- worst_fitness: 2829
+- mean_fitness: 2828.74
+- mode_fitness: 2829
+- greedy_solution_distance (3035): 232
+- greedy_solution_distance_percent: 7.64%
+------------------------------------------------------------
+Generation [242]
+- best_fitness: 2803
+- worst_fitness: 2829
+- mean_fitness: 2828.653333333333
+- mode_fitness: 2829
+- greedy_solution_distance (3035): 232
+- greedy_solution_distance_percent: 7.64%
+------------------------------------------------------------
+Generation [243]
+- best_fitness: 2803
+- worst_fitness: 2829
+- mean_fitness: 2828.48
+- mode_fitness: 2829
+- greedy_solution_distance (3035): 232
+- greedy_solution_distance_percent: 7.64%
+------------------------------------------------------------
+Generation [244]
+- best_fitness: 2803
+- worst_fitness: 2829
+- mean_fitness: 2827.44
+- mode_fitness: 2829
+- greedy_solution_distance (3035): 232
+- greedy_solution_distance_percent: 7.64%
+------------------------------------------------------------
+Generation [245]
+- best_fitness: 2803
+- worst_fitness: 2829
+- mean_fitness: 2825.5333333333333
+- mode_fitness: 2829
+- greedy_solution_distance (3035): 232
+- greedy_solution_distance_percent: 7.64%
+------------------------------------------------------------
+Generation [246]
+- best_fitness: 2803
+- worst_fitness: 2829
+- mean_fitness: 2822.153333333333
+- mode_fitness: 2829
+- greedy_solution_distance (3035): 232
+- greedy_solution_distance_percent: 7.64%
+------------------------------------------------------------
+Generation [247]
+- best_fitness: 2803
+- worst_fitness: 2829
+- mean_fitness: 2815.4566666666665
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 232
+- greedy_solution_distance_percent: 7.64%
+------------------------------------------------------------
+Generation [248]
+- best_fitness: 2803
+- worst_fitness: 2803
+- mean_fitness: 2803
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 232
+- greedy_solution_distance_percent: 7.64%
+------------------------------------------------------------
+Generation [249]
+- best_fitness: 2803
+- worst_fitness: 2803
+- mean_fitness: 2803
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 232
+- greedy_solution_distance_percent: 7.64%
+------------------------------------------------------------
+Generation [250]
+- best_fitness: 2803
+- worst_fitness: 2803
+- mean_fitness: 2803
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 232
+- greedy_solution_distance_percent: 7.64%
+------------------------------------------------------------
+Generation [251]
+- best_fitness: 2803
+- worst_fitness: 2803
+- mean_fitness: 2803
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 232
+- greedy_solution_distance_percent: 7.64%
+------------------------------------------------------------
+Generation [252]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.96
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [253]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.96
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [254]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.96
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [255]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.96
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [256]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.96
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [257]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [258]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [259]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [260]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [261]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [262]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [263]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [264]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [265]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [266]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [267]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [268]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [269]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [270]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [271]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [272]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [273]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [274]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [275]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [276]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [277]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [278]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.92
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [279]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.88
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [280]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.84
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [281]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.84
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [282]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.84
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [283]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.84
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [284]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.84
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [285]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.84
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [286]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.84
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [287]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.84
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [288]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.8
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [289]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.72
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [290]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.56
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [291]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.48
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [292]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.48
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [293]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.4
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [294]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.4
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [295]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.32
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [296]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.32
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [297]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.28
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [298]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.16
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [299]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.08
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+Generation [300]
+- best_fitness: 2791
+- worst_fitness: 2803
+- mean_fitness: 2802.08
+- mode_fitness: 2803
+- greedy_solution_distance (3035): 244
+- greedy_solution_distance_percent: 8.04%
+------------------------------------------------------------
+
+[Final Result]
+genes: [6, 4, 7, 0, 9, 1, 8, 2, 5, 3]
+fitness: 2791
+Execution Time: 16.60 seconds
+------------------------------------------------------------

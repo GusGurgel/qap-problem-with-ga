@@ -1,0 +1,12 @@
+{
+    "n": 10,
+    "selection_function": "SELECTION_WITH_ADDICTED_ROULETTE",
+    "crossover_function": "CROSSOVER_WITH_TWO_POINTS",
+    "mutation_function": "MUTATION_WITH_GLOBAL_SWAP",
+    "elitism_function": "ELITISM_WITH_ONLY_BEST",
+    "mutation_prob": 0.01,
+    "generation_limit": 500,
+    "generation_size": 500,
+    "crossover_majority_size": 10,
+    "tournament_size": 10
+}

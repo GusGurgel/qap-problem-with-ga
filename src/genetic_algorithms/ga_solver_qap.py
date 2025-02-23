@@ -165,7 +165,7 @@ class GASolverQAP:
                         c.mutation_swap_two_local(self.mutation_prob)
                     else:
                         c.mutation_swap_two_global(self.mutation_prob)
-                    new_generation.chromosomes.append()
+                    new_generation.chromosomes.append(c)
 
             # Aplicar o elitismo na população
             if self.elitism_function == GASolverQAP.ELITISM_WITH_ONLY_BEST:

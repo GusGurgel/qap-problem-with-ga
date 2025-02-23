@@ -1,10 +1,12 @@
 {
-    "n": 60,
-    "selection_function": "SELECTION_WITH_ADDICTED_ROULETTE",
-    "crossover_function": "CROSSOVER_WITH_TWO_POINTS",
+    "n": 10,
+    "selection_function": "SELECTION_WITH_TOURNAMENT",
+    "crossover_function": "CROSSOVER_WITH_TWO_MAJORITY",
     "mutation_function": "MUTATION_WITH_GLOBAL_SWAP",
-    "elitism_function": "ELITISM_WITH_ONLY_BEST",
+    "elitism_function": "ELITISM_WITH_ADDICTED_ROULETTE",
     "mutation_prob": 0.01,
     "generation_limit": 10,
-    "generation_size": 100
+    "generation_size": 10,
+    "crossover_majority_size": 3,
+    "tournament_size": 3
 }

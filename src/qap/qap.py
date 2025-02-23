@@ -43,7 +43,7 @@ def resolve_qap_array_dups(arr):
     aux = []
     for i in range(l):
         if arr[i] not in aux:
-            aux.push(arr[i])
+            aux.append(arr[i])
         else:
             while j < len(filler):
                 if filler[j] not in arr:
