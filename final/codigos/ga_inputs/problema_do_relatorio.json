@@ -1,0 +1,22 @@
+{
+    "n": 3,
+    "selection_function": "SELECTION_WITH_ADDICTED_ROULETTE",
+    "crossover_function": "CROSSOVER_WITH_TWO_POINTS",
+    "mutation_function": "MUTATION_WITH_GLOBAL_SWAP",
+    "elitism_function": "ELITISM_WITH_ONLY_BEST",
+    "mutation_prob": 0.01,
+    "generation_limit": 4,
+    "generation_size": 5,
+    "tournament_size": 3,
+    "crossover_majority_size": 3,
+    "distance_matrix": [
+        [0, 10, 15],
+        [10, 0, 12],
+        [15, 12, 0]
+    ],
+    "flux_matrix": [
+        [0, 3, 6],
+        [3, 0, 1],
+        [6, 1, 0]
+    ]
+}

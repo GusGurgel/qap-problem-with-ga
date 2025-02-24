@@ -1,0 +1,5 @@
+input_only.json teve uma média de melhora do algoritmo guloso em 8.62%
+Tempo médio de execução: 1.5222 segundos
+
+input_roulette.json teve uma média de melhora do algoritmo guloso em 7.25%
+Tempo médio de execução: 1.4696 segundos

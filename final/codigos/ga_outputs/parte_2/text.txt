@@ -1,0 +1,5 @@
+input_majority.json teve uma média de melhora do algoritmo guloso em 6.56%
+Tempo médio de execução: 1.4095 segundos
+
+input_two_points.json teve uma média de melhora do algoritmo guloso em 5.93%
+Tempo médio de execução: 1.0695 segundos

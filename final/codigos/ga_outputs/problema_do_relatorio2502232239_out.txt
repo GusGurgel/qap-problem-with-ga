@@ -1,0 +1,41 @@
+------------------------------------------------------------
+Running:  problema_do_relatorio.json
+------------------------------------------------------------
+Generation [1]
+- best_fitness: 111
+- worst_fitness: 117
+- mean_fitness: 115.8
+- mode_fitness: 117
+- greedy_solution_distance (111): 0
+- greedy_solution_distance_percent: 0.00%
+------------------------------------------------------------
+Generation [2]
+- best_fitness: 111
+- worst_fitness: 117
+- mean_fitness: 115.8
+- mode_fitness: 117
+- greedy_solution_distance (111): 0
+- greedy_solution_distance_percent: 0.00%
+------------------------------------------------------------
+Generation [3]
+- best_fitness: 111
+- worst_fitness: 117
+- mean_fitness: 115.8
+- mode_fitness: 117
+- greedy_solution_distance (111): 0
+- greedy_solution_distance_percent: 0.00%
+------------------------------------------------------------
+Generation [4]
+- best_fitness: 111
+- worst_fitness: 117
+- mean_fitness: 114.6
+- mode_fitness: 117
+- greedy_solution_distance (111): 0
+- greedy_solution_distance_percent: 0.00%
+------------------------------------------------------------
+
+[Final Result]
+genes: [2, 0, 1]
+fitness: 111
+Execution Time: 0.00 seconds
+------------------------------------------------------------
